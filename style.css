@@ -1,0 +1,101 @@
+.header {
+    text-align: center;
+    padding-top: 230px;
+    font-family: "Roboto Mono", serif;
+}
+
+h3 {
+    margin-top: 0px;
+    font-family: 'Pixel Sans Serif', sans-serif;
+}
+
+.header h1{
+    font-family: 'Pixel Sans Serif', sans-serif;
+    font-size: 50px;
+}
+
+.header p {
+    overflow-wrap: break-word;
+    padding: 0px 100px 0px 100px;
+    font-family: "Roboto Mono", serif;
+}
+
+.header h3 {
+    font-family: "Roboto Mono", serif;
+}
+
+.gameEmbed {
+    text-align:center;
+}
+
+.container {
+    max-width: 800px;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background: url(banner-small.png) no-repeat top center
+}
+
+p {
+    font-family: 'Pixel Sans Serif', sans-serif;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    font-family: 'Pixel Sans Serif', sans-serif;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.titleLink a:hover {
+	font-size: 28pt;
+}
+
+a:hover {
+    color: var(--main-fg-color);
+    font-weight: bold;
+  }
+  
+a:hover p {
+font-weight: normal;
+}
+
+a:link, a:visited, a:active {
+text-decoration: none;
+color: var(--main-fg-color);
+}
+
+@font-face {
+    font-family: 'Pixel Sans Serif Condensed';
+    src: url('Pixel-Sans-Serif-Condensed.woff2') format('woff2'),
+        url('Pixel-Sans-Serif-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixel Sans Serif';
+    src: url('Pixel-Sans-Serif.woff2') format('woff2'),
+        url('Pixel-Sans-Serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
